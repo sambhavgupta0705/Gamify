@@ -1,6 +1,7 @@
 import GithubCorner from "react-github-corner";
 // import tic_tac_toe from "./cards/tic_tac_toe";
 // import {tic_tac_toe} from "gamify/pages/assets/tic_tac_toe";
+import Link from 'next/link';
 export default function Home() {
   return (
     <div>
@@ -35,8 +36,9 @@ export default function Home() {
           </div>
           <div class="px-6 pt-4 pb-2">
             <div className="text-center">
-              <button class="inline-block items-center bg-gray-200 rounded-full text-center px-4 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+              <button class="inline-block items-center bg-gray-200 rounded-full text-center px-4 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><Link href="/tic_tac_toe/">
                 CLICK TO PLAY
+              </Link>
               </button>
             </div>
           </div>

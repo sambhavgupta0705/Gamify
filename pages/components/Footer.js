@@ -5,7 +5,7 @@ function Footer() {
     <div>
         <div>
             <br/>
-            <h4 className="text-center m-auto  bg-gray-900">Made with <span className='text-red-500'>  :love:</span> by <a> 
+            <h4 className="text-center m-auto  bg-gray-900">Made with <span className='text-red-500'>  :love:</span> by <a href="https"> 
                 Sambhav Gupta</a></h4>
             
         </div>
